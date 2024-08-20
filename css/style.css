@@ -1,0 +1,202 @@
+/* ====================link css start======================== */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ====================link css end======================== */
+/* ====================common css start======================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+body{
+    background-color: #F9FAFF;
+
+}
+/* ==================common css end========================= */
+/* ====================menubar css start======================== */
+#menubar{
+    margin-top: 14px;
+    margin-bottom: 130px;
+}
+.menubar-row{
+    display: flex;
+    justify-content: space-between;
+}
+.menubar-row .left p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Comfortaa", sans-serif;
+}
+.menubar-row .left h1{
+    width: 486px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    margin-top: 175px;
+}
+.menubar-row .left h2{
+    width: 486px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.menubar-row .left .button{
+    display: flex;
+    gap: 12px;
+}
+.menubar-row .left .button a{
+    width: 115px;
+    height: 43px;
+    background-color: #FDC435;
+    color: #25282B;
+    border: 2px solid #25282B;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    transition: all linear 0.3s;
+}
+.menubar-row .left .button a:hover{
+    background-color: #fff;
+
+}
+.menubar-row .right{
+    background-image: url(../Images/image.png);
+    width: 720px;
+    height: 629px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    position: relative;
+}
+.menubar-row .right ul{
+    display: flex;
+    gap: 48px;
+    position: absolute;
+    top: 0;
+    right: 94px;
+    font-size: 28px;
+}
+
+
+
+/* ====================menubar css end======================== */
+
+
+/* ====================project css start======================== */
+
+.project-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80PX;
+}
+.project-text{
+    position: relative;
+}
+.project-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #25282B;
+}
+.project-text .line{
+    width: 100px;
+    height: 4px;
+    background-color: #FDC435;
+    position: absolute;
+    top: 76px;
+    left: 40.5px;
+}
+.project-row .project-one{
+    width: 992px;
+    background-color: #fff;
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-one .text h2{
+    width: 406.68px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    padding-top: 146.5px;
+    margin-left: 50.44px;
+}
+.project-one .text p{
+    width: 406.68px;
+    font-size: 18px;
+    font-size: 400;
+    font-family: "Nunito", sans-serif;
+    margin: 24px 0px 24px 50.44px;
+}
+.project-one .text a{
+    width: 150px;
+    height: 43px;
+    border: 1px solid #25282B;
+    border-radius: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    line-height: 43px;
+    margin-left: 50.44PX;
+    transition: all linear 0.3s;
+}
+.project-one .text a:hover{
+    background-color: #FDC435;
+}
+.project-one .img img{
+    width: 496px;
+}
+
+
+/* ====================project css end======================== */
+
+/* ====================footer css start======================== */
+
+#footer{
+    margin-top: 144px;
+    margin-bottom: 134px;
+}
+#footer .footer-row{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+#footer .footer-row img{
+    width: 48px;
+    height: 48px;
+}
+
+
+
+
+
+
+
+
+/* ====================footer css end======================== */
+
